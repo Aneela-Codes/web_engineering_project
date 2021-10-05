@@ -1,0 +1,103 @@
+
+.programs{
+    /* height: 100vh; */
+    display: flex;
+    margin: 8rem auto;
+    padding: 8rem 4rem;
+}
+.programs .row{
+    padding: 0;
+}
+.programs .about_details p{
+    margin-top: 2rem;
+}
+.programs .about_details img{
+    width: 20rem;
+}
+.programs .internship{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem  ;
+    text-align: center;
+    background: var(--secondary);
+    position: relative;
+    transition: all ease-in-out .3s;
+    height: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;    border: none;
+
+}
+.programs .internship .details-btn{
+    position: absolute;
+    background: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all ease .3s;
+
+}
+.programs .internship .details-btn a{
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow:1px 2px 1px rgb(44, 44, 44);
+}
+.programs .internship:hover .details-btn{
+    opacity: 1;
+}
+.programs .internship i{
+    font-size: 2rem;
+}
+.programs .internship{
+    /* height: 100%; */
+}
+.programs .internship img{
+    width: 10rem;
+    height: 100%;
+    margin: 1rem auto;
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------*/
+
+.internship_container{
+    background: var(--secondary);
+    width: 100%;
+    padding: 4rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .3rem;
+    position: relative;
+    /* height: 50%; */
+    margin-top: 7rem;
+    z-index: 9;
+}
+.internship_container .tabContainer{
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+}
+.internship_container .internship img{
+    width: 25rem;
+}
+.internship_container .panel{
+    width: 100%; 
+    /* height: 50%; */
+    background: var(--secondary);
+
+    display: none;
+ }
+ .button_container button{
+     border: 1px solid gray;
+ }
+.panel h5{
+    margin: 1rem auto;
+}
+.panel ul li{
+    list-style: circle;
+    margin: .5rem auto;
+    margin-left: 1.2rem;
+}
